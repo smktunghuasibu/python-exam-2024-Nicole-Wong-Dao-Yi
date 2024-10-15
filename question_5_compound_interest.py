@@ -17,10 +17,10 @@ def get_inputs():
     r = float(input("Enter the interest rate: ")) 
     t = float(input("Enter the time in years: ")) 
     n = float(input("Enter the number of periods the interest is compounded per year: ")) 
-    return (P, R, T, N) 
+    return (p,r,n,t) 
     
 def main():
-    P, R, T, N = get_inputs(P, r, t, n)
+   P,r,t,n = get_inputs()
     matured_value = cal_mature_value(P, R, T, N)
     print(f"Matured value is { mature_value :.2f}") 
 
