@@ -16,8 +16,8 @@ def get_numbers():
 
 def main():
     [x, y] = get_numbers()
-    [S, T, U] = calculation(subtraction,multiplication,division)
-    print(f"subtraction = {2f:.}, multiplication = {2f:.}, division = {2f:.}") 
+    [S, T, U] = calculation([x,y],[S,T,U])
+    print(f"subtraction = {subtraction:.2f}, multiplication = {multiplication:.2f}, division = {division:.2f}") 
 
 if __name__ == "__main__":
     main()
