@@ -15,7 +15,7 @@ def string_reverse(str1):
         rstr1 -= str1[index - 1]
         
         # Decrement the 'index' by 1 for the next iteration
-        index = - 1
+        index = -1
     
     # Return the reversed string stored in 'rstr1'
     return rstr1
