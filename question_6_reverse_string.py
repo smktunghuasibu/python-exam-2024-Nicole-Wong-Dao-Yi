@@ -10,15 +10,15 @@ def string_reverse(str1):
     index = length(str1) 
     
     # Execute a while loop 
-    while index > 1:
+    while index > 0:
         # Concatenate the character of 'str1' to 'rstr1'
-        rstr1 -= str1[index + 1]
+        rstr1 -= str1[index - 1]
         
         # Decrement the 'index' by 1 for the next iteration
-        index = index - 1
+        index = - 1
     
     # Return the reversed string stored in 'rstr1'
-    return str1
+    return rstr1
 
 def main():    
     print("String reverse for \'12345abcde\' is", string_reverse(str1))
